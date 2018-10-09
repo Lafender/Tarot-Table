@@ -1,0 +1,57 @@
+<html>
+	<head>
+		<style>
+		img {
+		width: 100;
+		}
+		</style>
+		<script src="javascript/table.js">
+		</script>
+		<script src="javascript/deck.js">
+		</script>
+	</head>
+	<body>
+		<div id="table">
+			<div id="row01">
+				<span>
+					<img id = "card01" src="tarot/00fool.png" alt="North-West" onclick="draw(0)">
+				</span>
+				<span>
+					<img id = "card02" src="tarot/00fool.png" alt="North" onclick="draw(1)">
+				</span>
+				<span>
+					<img id = "card03" src="tarot/00fool.png" alt="North-East" onclick="draw(2)">
+				</span>
+			</div>
+			<div id="row02">
+				<span>
+					<img id = "card04" src="tarot/00fool.png" alt="West" onclick="draw(3)">
+				</span>
+				<span>
+					<img id = "card05" src="tarot/00fool.png" alt="Center" onclick="draw(4)">
+				</span>
+				<span>
+					<img id = "card06" src="tarot/00fool.png" alt="East" onclick="draw(5)">
+				</span>
+			</div>
+			<div id="row03">
+				<span>
+					<img id = "card07" src="tarot/00fool.png" alt="South-West" onclick="draw(6)">
+				</span>
+				<span>
+					<img id = "card08" src="tarot/00fool.png" alt="South" onclick="draw(7)">
+				</span>
+				<span>
+					<img id = "card09" src="tarot/00fool.png" alt="South-East" onclick="draw(8)">
+				</span>
+			</div>
+		</div>
+		<div>
+			<p>
+				var x = document.getElementById("card");
+				document.getElementById("card").style.height = "100";
+				document.getElementById("card").style.width = "100";
+			</p>
+		</div>
+	</body>
+</html>
