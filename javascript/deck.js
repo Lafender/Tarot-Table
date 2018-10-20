@@ -13,7 +13,7 @@ var newdeck = 79; // 79 is the standard number of cards in a tarot deck
 
 
 /*
-the drawn array will record both which cards have been drawn so that they are not drawn twice.
+the drawn array will record which cards have been drawn so that they are not drawn twice.
 it will have its length checked and will be cleared when its length is equal to newdeck variable
 */
 var drawn = [newdeck]; // newdeck is an integer. 
