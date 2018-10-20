@@ -1,5 +1,4 @@
 # Tarot-Table
-This was just for practice. 
 
 
 HOW TO USE:
